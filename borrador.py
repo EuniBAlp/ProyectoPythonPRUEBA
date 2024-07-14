@@ -9,7 +9,7 @@ print("Hola", nombre,ap,am)#Saluda
 print ("Tu indice de masa corporal es el siguiente")#Agregaimc
 IMC= p/e**2 #Se imprime el IMC
 print ("IMC:"+str(IMC))
-#Se hacen las validaciones
+#Se hace validación
 if IMC >=0 and IMC <= 18.5: print ("Peso bajo")
 if IMC >=18.5 and IMC <= 24.9 : print ("Peso normal")
 if IMC >=24.9 and IMC <= 29.9 : print ("Sobrepeso")
